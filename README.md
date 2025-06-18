@@ -132,6 +132,18 @@ These incentives create a virtuous cycle where ecological improvement is both me
 
 ---
 
+## 🔗 Service–Verifier Architecture
+
+Eigen Carbon follows a modular Service–Verifier model. Each environmental service (e.g., BiodiversityService, CarbonService, WaterQualityService) attaches to the LandNFT, representing a specific parcel of land or ocean. These services are responsible for issuing credits, tokens, or attestations based on verifications. Each service maintains a panel of approved verifiers — either individuals, institutions, or decentralized oracles — who apply their own methodologies to assess the relevant claims. This design enables layered verification across multiple domains while ensuring that every credit is anchored to a verifiable piece of land through the NFT registry.
+
+---
+
+## 🧾 Open Verification Model
+
+Eigen Carbon is built around an open and extensible verification model. We recognize that different jurisdictions and stakeholders rely on varied forms of land title verification — from Torrens Title systems to anthropological or customary tenure and storytelling methods. Similarly, carbon verification can encompass a wide range of techniques including soil sampling, remote sensing, drone-based multispectral imaging, and third-party scientific audits. Our framework is designed to accommodate diverse approaches to crypto-economic security and validation, empowering local communities, scientists, landholders, and independent verifiers to participate on equal footing. This pluralism is central to Eigen Carbon’s mission: enabling a credible, inclusive, and transparent carbon market.
+
+---
+
 ## 🔒 Security & Transparency
 
 All contracts are upgradeable and audited. Coin burns are tracked publicly via on-chain data and IPFS. We offer optional KYC-based verifier onboarding.
